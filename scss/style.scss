@@ -1,5 +1,7 @@
 $height : 500px;
+
 #section1 {
+    padding-top: 0px;
     background-image: url('../images/code.jpg');
     height: $height;
     background-position: 50% 50%;
@@ -16,11 +18,34 @@ $height : 500px;
     }
 }
 
-#section4 {
+section,footer{
     padding-top: 100px;
+}
+
+#section4 {
     img{
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 30px;
+    }
+}
+
+form {
+    padding-top: 50px;
+}
+
+.titre {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: grey;
+    height: 230px;
+
+    i{
+        padding-right: 15px;
+        margin-bottom: 50px;
     }
 }

@@ -27,12 +27,12 @@
         </section>
         <section id="section2" class="container-fluid">
             <div class="container">
-                <div class="row">
+                <div class="row col">
                     <div class="col-4">
-                        <img src="images/profile.jpg" alt="image de profile">
+                        <img src="images/profile.jpg" alt="image de profile" class="img-fluid">
                     </div>
                     <div class="col-8">
-                        <h2></h2>
+                        <h2>titre</h2>
                         <p></p>
                         <p>
                             <a href="#">Lien</a>
@@ -82,8 +82,8 @@
         </section>
         <section id="section4" class="container-fluid">
             <div class="container">
-                <h2 class="col-12">Recent Works</h2>
                 <div class="row">
+                    <h2 class="col-12">Recent Works</h2>
                     <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
                         <img src="images/work.jpg" alt="image de travail" class="img-fluid">
                     </div>
@@ -107,13 +107,19 @@
         </section>
         <section id="section5" class="container-fluid">
             <div class="container">
-                <h2 class="col-12">Contact Me</h2>
                 <div class="row">
+                    <h2 class="col-12">Contact Me</h2>
                     <?php include 'formulaire.php' ?>
                 </div>
             </div>
         </section>
         <footer>
+            <div class="text-center">
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <i class="fab fa-google-plus-square fa-2x"></i>
+                <i class="fab fa-twitter-square fa-2x"></i>
+                <i class="fab fa-youtube fa-2x"></i>
+            </div>
         </footer>
     </body>
 </html>
