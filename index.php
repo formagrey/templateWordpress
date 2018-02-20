@@ -35,7 +35,7 @@
                         <h2></h2>
                         <p></p>
                         <p>
-                            <a href="#"></a>
+                            <a href="#">Lien</a>
                         </p>
                     </div>
 
@@ -44,7 +44,73 @@
         </section>
         <section id="section3" class="container-fluid">
             <div class="container">
+                <div class="row">
+                    <h2 class="col-12">What I Do</h2>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <i class="fab fa-accusoft fa-2x col 12"></i>
+                        <p class="titre">UI/UX DESIGN</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
 
+                </div>
+            </div>
+        </section>
+        <section id="section4" class="container-fluid">
+            <div class="container">
+                <h2 class="col-12">Recent Works</h2>
+                <div class="row">
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                    <div class="bloc1 col-xs-12 col-md-6 col-lg-4">
+                        <img src="images/work.jpg" alt="image de travail" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section5" class="container-fluid">
+            <div class="container">
+                <h2 class="col-12">Contact Me</h2>
+                <div class="row">
+                    <?php include 'formulaire.php' ?>
+                </div>
             </div>
         </section>
         <footer>

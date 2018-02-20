@@ -12,4 +12,11 @@
     height: 500px;
     background-color: inherit; }
 
+#section4 {
+  padding-top: 100px; }
+  #section4 img {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px; }
+
 /*# sourceMappingURL=style.css.map */
